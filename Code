@@ -1,7 +1,7 @@
 import random
 
 
-def let_this_nigga_lose ():
+def let_this_person_lose ():
   x = input("Rock, Paper, Scissors: ")
   while (x == 'Rock' or x=='Paper' or x=='Scissors'):
     if x=='Rock':
@@ -28,4 +28,4 @@ def let_this_nigga_lose ():
       else:
         print("Scissors")
         x = input("Rock, Paper, Scissors: ")
-f = let_this_nigga_lose()
+f = let_this_person_lose()
